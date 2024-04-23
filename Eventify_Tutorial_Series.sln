@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{3B2FA05C-9FCC-4D8F-AF06-C28B4A6D2505}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infastructure", "Infastructure", "{5DEF3706-7DB5-4926-B04E-6819FFB0315D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{0F30CBA3-A6A2-4109-90A6-D9DF75E8982D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eventify_Tutorial_Series.Domain", "Core\Eventify_Tutorial_Series.Domain\Eventify_Tutorial_Series.Domain.csproj", "{495DC9D6-03D8-4100-971E-773FEB039E48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eventify_Tutorial_Series.Application", "Core\Eventify_Tutorial_Series.Application\Eventify_Tutorial_Series.Application.csproj", "{5B584C4B-0FEB-4A12-BD8D-605AE8EED310}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eventify_Tutorial_Series.Persistence", "Infastructure\Eventify_Tutorial_Series.Persistence\Eventify_Tutorial_Series.Persistence.csproj", "{AEA8C1F8-AA42-4034-93C0-279623875CED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eventify_Tutorial_Series.Infastructure", "Infastructure\Eventify_Tutorial_Series.Infastructure\Eventify_Tutorial_Series.Infastructure.csproj", "{F9F4056E-0BBF-4D13-B5E2-24F331A10D00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eventify_Tutorial_Series.API", "Presentation\Eventify_Tutorial_Series.API\Eventify_Tutorial_Series.API.csproj", "{195855AB-1B00-4E0C-AA4A-9FDB0B3AEE2C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{495DC9D6-03D8-4100-971E-773FEB039E48} = {3B2FA05C-9FCC-4D8F-AF06-C28B4A6D2505}
+		{5B584C4B-0FEB-4A12-BD8D-605AE8EED310} = {3B2FA05C-9FCC-4D8F-AF06-C28B4A6D2505}
+		{AEA8C1F8-AA42-4034-93C0-279623875CED} = {5DEF3706-7DB5-4926-B04E-6819FFB0315D}
+		{F9F4056E-0BBF-4D13-B5E2-24F331A10D00} = {5DEF3706-7DB5-4926-B04E-6819FFB0315D}
+		{195855AB-1B00-4E0C-AA4A-9FDB0B3AEE2C} = {0F30CBA3-A6A2-4109-90A6-D9DF75E8982D}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{495DC9D6-03D8-4100-971E-773FEB039E48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{495DC9D6-03D8-4100-971E-773FEB039E48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{495DC9D6-03D8-4100-971E-773FEB039E48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{495DC9D6-03D8-4100-971E-773FEB039E48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B584C4B-0FEB-4A12-BD8D-605AE8EED310}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B584C4B-0FEB-4A12-BD8D-605AE8EED310}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B584C4B-0FEB-4A12-BD8D-605AE8EED310}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B584C4B-0FEB-4A12-BD8D-605AE8EED310}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEA8C1F8-AA42-4034-93C0-279623875CED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEA8C1F8-AA42-4034-93C0-279623875CED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEA8C1F8-AA42-4034-93C0-279623875CED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEA8C1F8-AA42-4034-93C0-279623875CED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9F4056E-0BBF-4D13-B5E2-24F331A10D00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9F4056E-0BBF-4D13-B5E2-24F331A10D00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9F4056E-0BBF-4D13-B5E2-24F331A10D00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9F4056E-0BBF-4D13-B5E2-24F331A10D00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{195855AB-1B00-4E0C-AA4A-9FDB0B3AEE2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{195855AB-1B00-4E0C-AA4A-9FDB0B3AEE2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{195855AB-1B00-4E0C-AA4A-9FDB0B3AEE2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{195855AB-1B00-4E0C-AA4A-9FDB0B3AEE2C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
